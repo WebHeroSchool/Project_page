@@ -29,3 +29,54 @@
     font-weight: 400;
     font-style: normal;
 }
+
+/* Шапка */
+
+.header__link {
+	font-family: "Montserrat";
+	font-weight: 600;
+}
+
+.header__wrapper {
+	font-family: "Montserrat";
+	font-weight: 600;
+}
+
+/* Домашний экран */
+
+.character__item_big {
+	font-family: "Montserrat";
+	font-weight: 600;
+}
+
+.character__item_small {
+    font-family: "Montserrat";
+	font-weight: 400;
+}
+
+.btn__item_link {
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+
+.button__item_link {
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+
+/* Третий экран*/
+
+.star {
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+
+.score {
+	font-family: "Montserrat";
+	font-weight: 600;
+}
+
+.safe-body {
+	font-family: "Montserrat";
+	font-weight: 600;
+}
