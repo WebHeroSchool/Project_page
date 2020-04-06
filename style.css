@@ -1,0 +1,336 @@
+body {
+	margin: 0 auto;
+	max-width: 1440px;
+	max-height: 2700px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+@media (min-width:1281px) {
+	
+	/* Шапка */
+
+	.header {
+		height: 103px;
+		width: 94%;
+		display: flex;
+		align-items: center;
+		margin: inherit;
+		margin-bottom: 30px;
+	}
+
+	.header__wrapper_logo {
+		flex: .625;
+	}
+	.header__menu {
+		display: flex;
+		flex: 1.375;
+		height: 24px;
+		align-items: center;
+		justify-content: center;
+	}
+	.header__wrapper_item {
+		flex: 1.1;
+		display: flex;
+		justify-content: space-between;
+	}
+	.header__link,
+	.button__item_link {
+		color: #000;
+	}
+	.header__link {
+		display: block;
+		height: 22px;
+	}
+	.header__wrapper_clear {
+		flex: .49;
+	}
+	.header__wrapper {
+		flex: .5;
+		height: inherit;
+		display: flex;
+		align-items: center;
+	}
+	.header__wrapper_link {
+		margin-right: 31px;
+	}
+
+	.burger {
+		height: 100%;
+		width: 25px;
+	}
+	.burger:hover {
+		cursor: pointer;
+	}
+	.burger__icon {
+		display: block;
+		height: 2px;
+		width: 25px;
+		background-color: #E51937;
+		margin-bottom: 5px;
+		border-radius: 0 0 5px 5px;
+	}
+
+	.header__link:hover {
+		border-bottom: 2px solid #E51937;
+		border-radius: 2.5px;
+	}
+
+	/* Первый экран*/
+
+	.section-main__title {
+		margin: 0 auto;
+		text-align: center;
+		height: 101px;
+	}
+	.section-main__subtitle {
+		text-align: center;
+		margin-bottom: 26px;
+	}
+	.section-main__img {
+		height: 460px;
+	}
+	.section-main__modelS-logo {
+		position: relative;
+		width: 95%;
+		text-align: center;
+		z-index: 1;
+	}
+	.section-main__logo {
+		position: relative;
+		bottom: 598px;
+		width: 100%;
+		z-index: 0;
+	}
+	.section-main__wrapper {
+		display: flex;
+		margin:0 auto;
+		height: 95px;
+		width: 55.45%;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 14px;
+	}
+
+
+	.character,
+	.btn_test-drive {
+		display: flex;
+	}
+	.character {
+		flex: .285;
+	}
+	.character__item_icon {
+		margin-right: 5px;
+	}
+	.btn_test-drive {
+		flex: .225;
+		display: flex;
+		justify-content: center;
+	}
+	.btn__item_icon {
+		margin-right: 6px;
+	}
+	.button_section-main {
+		flex: .2;
+		margin-left: 8px;
+	}
+	.button__item_link, 
+	.button__item_link1 {
+		text-transform: uppercase;
+	}
+	.button__item_big {
+		flex: 1.5;
+		height: 35px;
+	}
+	.btn__item_order {
+		display: flex;
+		color: #E51937;
+		border: 2px solid #E51937;
+		height: 100%;
+		justify-content: center;
+		align-items: center;
+		text-transform: uppercase;
+	}
+	.character__item_small {
+		margin: 0 auto;
+	}
+	.section-main__img_control-down {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	/* Второй экран*/
+
+	.section-desc_future-drive {
+		display: flex;
+		height: 900px;
+	}
+	.section-desc__wrap_little {
+		flex: 1.39;
+		height: 140px;
+		color: #E51937;
+		z-index: 1;
+	}
+	.section-desc {
+		flex: .61;
+	}
+	.section-desc__title {
+		letter-spacing: 1px;
+		margin: 65px auto 0;
+		width: 84%;
+	}
+	.item__interior {
+		position: absolute;
+		display: flex;
+		z-index: 0;
+		height: 900px;
+		align-items: flex-end;
+	}
+
+
+	.text__wrap_main,
+	.text__item {
+		width: 76.5%;
+	}
+	.text__wrap_main {
+		margin: 51px auto 0;
+	}
+	.text__item_1 {
+		width: 78.5%;
+	}
+	.text__content {
+		text-align: left;
+		letter-spacing: .6px;
+		margin-bottom: 55px;
+	}
+	.text__title {
+		margin: 0;
+		letter-spacing: .8px;
+	}
+	.text__item {
+		display: flex;
+		height: 70px;
+		margin: 0 auto 30px;
+	}
+	.text__item_small {
+		display: flex;
+		align-items: center;
+		margin-right: 18px;
+	}
+	.text__item_small1 {
+		margin-right: 25px;
+	}
+	.text__wrap_character {
+		margin-bottom: 165px;
+	}
+
+	.button {
+		display: flex;
+		margin: 0 auto;
+		height: 39px;
+		width: 79%;
+	}
+	.button_future-drive {
+		display: flex;
+		height: 44px;
+	}
+	.button__item_bigger {
+		flex: 1;
+		display: flex;
+		align-items: center;
+	}
+	.button__item_icon {
+		margin-right: 10px;
+	}
+	.text {
+		z-index: 1;
+		background-color: #E51937;
+		color: #fff;
+	}
+	.link_color,
+	.button__item_link1 {
+		color: #fff;
+	}
+	.link_color {
+		width: 100%;
+		border: 2px solid #fff;
+	}
+
+	/* Третий экран*/
+
+	.section-desc_safe-car {
+		display: flex;
+		height: 900px;
+	}
+	.section-desc__wrap_big {
+		flex: 1.39;
+		position: relative;
+	}
+	.text__features {
+		width: 75%;
+		margin: 0 auto 104px;
+	}
+	.text__subtitle {
+		margin: 0 auto 26px;
+	}
+	.star {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 10px;
+		width: 89%;
+		text-transform: uppercase;
+	}
+	.score {
+		display: flex;
+		width: 70%;
+		margin: 0 auto 60px;
+	}
+	.score__item_icon {
+		display: flex;
+		align-items: center;
+		margin-right: 25px;
+	}
+
+
+	.safe-body__item_corps {
+		position: absolute;
+    	right: 46px;
+    	top: 222px;
+    	z-index: 1;
+	}
+	.safe-body__item_modelS {
+		position: absolute;
+    	right: 0px;
+    	top: 141px;
+	}
+
+	.item__line {
+    	display: flex;
+    	align-items: flex-start;
+		position: absolute;
+    	z-index: 3;
+	}
+	.item__line_long {
+    	left: 170px;
+    	top: 221px;
+    	width: 24%;
+	}
+	.item__line_medium {
+		right: 374px;
+    	top: 173px;
+    	width: 18%;
+	}
+	.item__line_small {
+		bottom: 192px;
+    	right: 248px;
+    	width: 25%;
+    	align-items: flex-end;
+	}
+	.item__icon {
+		margin-right: 5px;
+	}
+}

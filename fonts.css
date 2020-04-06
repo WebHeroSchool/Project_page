@@ -1,82 +1,155 @@
 @font-face {
 	font-family: "Montserrat";
-	src: url("C:\Users\пк\Desktop\Fonts\montserrat-bold-webfont.woff2") format("woff2"),
-		 url("C:\Users\пк\Desktop\Fonts\montserrat-bold-webfont.woff") format("woff");
+	src: /*url("Fonts/montserrat-bold-webfont.woff2") format("woff2"),
+		 url("Fonts/montserrat-bold-webfont.woff") format("woff"),*/
+		 url("Fonts/Montserrat-Bold.otf") format("opentype"),
+		 url("Fonts/Montserrat-Bold.ttf") format("truetype");
+
 	font-weight: 700;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Montserrat";
-	src: url("C:\Users\пк\Desktop\Fonts\montserrat-medium-webfont.woff") format("woff"),
-		 url("C:\Users\пк\Desktop\Fonts\montserrat-medium-webfont.woff2") format("woff2");
+	src: /*url("Fonts/montserrat-medium-webfont.woff") format("woff"),
+		 url("Fonts/montserrat-medium-webfont.woff2") format("woff2"),*/
+		 url("Fonts/Montserrat-Medium.otf") format("opentype"),
+		 url("Fonts/Montserrat-Medium.ttf") format("truetype");
 	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
     font-family: "Montserrat";
-    src: url("C:\Users\пк\Desktop\Fonts\montserrat-semibold-webfont.woff2") format("woff2"),
-         url("C:\Users\пк\Desktop\Fonts\montserrat-semibold-webfont.woff") format("woff");
+    src: /*url("Fonts/montserrat-semibold-webfont.woff2") format("woff2"),*/
+         /*url("Fonts/montserrat-semibold-webfont.woff") format("woff"),*/
+		 url("Fonts/Montserrat-SemiBold.otf") format("opentype"),
+		 url("Fonts/Montserrat-SemiBold.ttf") format("truetype");
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Montserrat";
-    src: url("C:\Users\пк\Desktop\Fonts\montserrat-regular-webfont.woff2") format("woff2"),
-         url("C:\Users\пк\Desktop\Fonts\montserrat-regular-webfont.woff") format("woff");
-    font-weight: 400;
+    src: /*url("Fonts/montserrat-regular-webfont.woff2") format("woff2"),
+         url("Fonts/montserrat-regular-webfont.woff") format("woff"),*/
+		 url("Fonts/Montserrat-Regular.otf") format("opentype"),
+		 url("Fonts/Montserrat-Regular.ttf") format("truetype");
+    font-weight: normal;
     font-style: normal;
+}
+
+body {
+	font-family: "Montserrat";
 }
 
 /* Шапка */
 
-.header__link {
-	font-family: "Montserrat";
+.header {
 	font-weight: 600;
-}
-
-.header__wrapper {
-	font-family: "Montserrat";
-	font-weight: 600;
+	font-size: 15px;
+	line-height: 18px;
 }
 
 /* Домашний экран */
 
-.character__item_big {
-	font-family: "Montserrat";
+.section-main__title {
 	font-weight: 600;
+	font-size: 90px;
+	line-height: 110px;
+}
+
+.section-main__subtitle {
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.character__item_big,
+.text__item_big {
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 43px;
+}
+
+.character__item_little {
+	font-size: 20px;
+	line-height: 24px;
 }
 
 .character__item_small {
-    font-family: "Montserrat";
-	font-weight: 400;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
 }
 
-.btn__item_link {
-	font-family: "Montserrat";
+.button__item_link, 
+.button__item_link1 {
 	font-weight: 700;
+	font-size: 13px;
+	line-height: 16px
 }
 
-.button__item_link {
-	font-family: "Montserrat";
-	font-weight: 700;
+/* Второй экран*/
+
+.section-desc__title {
+	font-size: 68px;
+	line-height: 85px;
+}
+
+.text__title {
+	font-weight: 600;
+	font-size: 29px;
+	line-height: 37px;
+}
+
+.text__content {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18.4px;
+}
+
+.character__item_medium {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 18px;
 }
 
 /* Третий экран*/
 
+.text__subtitle {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 37px;
+}
+.score__item {
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 30px;
+}
 .star {
-	font-family: "Montserrat";
 	font-weight: 700;
+	font-size: 17px;
+	line-height: 21px;
+}
+.star__title_add {
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 12px;
 }
 
 .score {
-	font-family: "Montserrat";
 	font-weight: 600;
+	font-size: 50px;
+	line-height: 34px;
 }
 
 .safe-body {
-	font-family: "Montserrat";
 	font-weight: 600;
+}
+
+.item__line {
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 15px;
 }
