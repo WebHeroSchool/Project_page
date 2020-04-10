@@ -153,3 +153,50 @@ body {
 	font-size: 17px;
 	line-height: 15px;
 }
+
+
+@media (max-width: 768px) {
+	.character__item_big {
+		font-size: 50px;
+		line-height: 61px;
+	}
+	.character__item_little {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.character__item_small {
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.button__item_link {
+		font-size: 16px;
+		line-height: 20px;
+	}
+}
+
+@media (max-width: 375px) {
+	.section-main__title {
+		font-size: 50px;
+		line-height: 61px;
+	}
+	.section-main__subtitle {
+		font-size: 10px;
+		line-height: 12px;
+	}
+	.character__item_big {
+		font-size: 27px;
+		line-height: 33px;
+	}
+	.character__item_little {
+		font-size: 15px;
+		line-height: 18px;
+	}
+	.character__item_small {
+		font-size: 10px;
+		line-height: 12px;
+	}
+	.button__item_link {
+		font-size: 13px;
+		line-height: 16px;
+	}
+}

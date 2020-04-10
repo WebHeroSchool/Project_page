@@ -1,7 +1,6 @@
 body {
 	margin: 0 auto;
 	max-width: 1440px;
-	max-height: 2700px;
 }
 
 a {
@@ -9,7 +8,7 @@ a {
 }
 
 
-@media (min-width:1281px) {
+/*@media (min-width:1281px) {*/
 	
 	/* Шапка */
 
@@ -18,22 +17,20 @@ a {
 		width: 94%;
 		display: flex;
 		align-items: center;
-		margin: inherit;
-		margin-bottom: 30px;
+		margin: 0 auto 30px;
 	}
 
 	.header__wrapper_logo {
-		flex: .625;
+		width: 27%;
+		margin-right: 58px;
 	}
 	.header__menu {
 		display: flex;
-		flex: 1.375;
-		height: 24px;
-		align-items: center;
-		justify-content: center;
+		width: 68%;
+		justify-content: space-between;
 	}
 	.header__wrapper_item {
-		flex: 1.1;
+		width: 53%;
 		display: flex;
 		justify-content: space-between;
 	}
@@ -41,26 +38,17 @@ a {
 	.button__item_link {
 		color: #000;
 	}
-	.header__link {
-		display: block;
-		height: 22px;
-	}
-	.header__wrapper_clear {
-		flex: .49;
-	}
 	.header__wrapper {
-		flex: .5;
-		height: inherit;
+		width: 23%;
 		display: flex;
-		align-items: center;
+		justify-content: center;
 	}
 	.header__wrapper_link {
 		margin-right: 31px;
 	}
 
 	.burger {
-		height: 100%;
-		width: 25px;
+		/*height: 100%;*/
 	}
 	.burger:hover {
 		cursor: pointer;
@@ -74,7 +62,8 @@ a {
 		border-radius: 0 0 5px 5px;
 	}
 
-	.header__link:hover {
+	.header__link:focus {
+		color: #E51937;
 		border-bottom: 2px solid #E51937;
 		border-radius: 2.5px;
 	}
@@ -90,60 +79,54 @@ a {
 		text-align: center;
 		margin-bottom: 26px;
 	}
+	.section-main {
+		height: 767px;
+	}
 	.section-main__img {
-		height: 460px;
+		margin-bottom: 24px;
 	}
 	.section-main__modelS-logo {
-		position: relative;
-		width: 95%;
-		text-align: center;
+		margin: 0 auto;
+		width: 72%;
 		z-index: 1;
 	}
 	.section-main__logo {
-		position: relative;
-		bottom: 598px;
-		width: 100%;
+		position: absolute;
+		top: 134px;
 		z-index: 0;
 	}
 	.section-main__wrapper {
 		display: flex;
 		margin:0 auto;
-		height: 95px;
 		width: 55.45%;
 		align-items: center;
 		justify-content: space-between;
-		margin-bottom: 14px;
+		margin-bottom: 32px;
 	}
 
-
+	.section-main__wrapper_character,
 	.character,
 	.btn_test-drive {
 		display: flex;
 	}
-	.character {
-		flex: .285;
+	.section-main__wrapper_character {
+		width: 47%;
+		justify-content: space-between;
 	}
-	.character__item_icon {
-		margin-right: 5px;
-	}
-	.btn_test-drive {
-		flex: .225;
-		display: flex;
-		justify-content: center;
-	}
+	.character__item_icon,
 	.btn__item_icon {
 		margin-right: 6px;
 	}
-	.button_section-main {
-		flex: .2;
-		margin-left: 8px;
+	.btn_test-drive {
+		width: 23%;
+		justify-content: flex-end;
 	}
 	.button__item_link, 
 	.button__item_link1 {
 		text-transform: uppercase;
 	}
 	.button__item_big {
-		flex: 1.5;
+		width: 20%;
 		height: 35px;
 	}
 	.btn__item_order {
@@ -160,7 +143,6 @@ a {
 	}
 	.section-main__img_control-down {
 		text-align: center;
-		margin-bottom: 30px;
 	}
 
 	/* Второй экран*/
@@ -332,5 +314,187 @@ a {
 	}
 	.item__icon {
 		margin-right: 5px;
+	}
+/*}*/
+
+
+
+@media (max-width: 768px) {
+	body {
+		max-width: 768px;
+	}
+
+	.header {
+		width: 96%;
+		margin: 0 auto 50px;
+		justify-content: space-between;
+	}
+	.header__wrapper {
+		width: 75%;
+	}
+	.header__wrapper_logo {
+		margin-right: 0;
+	}
+	.header__menu {
+		height: 30px;
+		width: 7%;
+	}
+	.header__wrapper_item,
+	.header__wrapper_link {
+		display: none;
+	}
+	.burger__icon {
+		width: 34px;
+		height: 3px;
+		margin-bottom: 7px;
+	}
+
+	.section-main {
+		height: 853px;
+	}
+	.section-main__title {
+		margin-bottom: 3px;
+	}
+	.section-main__subtitle {
+		margin-bottom: 89px;
+	}
+
+	.section-main__modelS-logo {
+		width: 91%;
+	}
+	.car-logo {
+		width: 100%;
+	}
+	.section-main__logo {
+		top: 256px;
+		width: 100%;
+	}
+	.main-logo_big {
+		width: 106%;
+	}
+
+	.section-main__wrapper {
+		display: block;
+		width: 65.5%;
+		height: 214px;
+		margin-bottom: 47px;
+	}
+	.section-main__wrapper_character {
+		height: 84px;
+		width: 97%;
+		margin-bottom: 63px;
+	}
+	.character {
+		width: 44%;
+	}
+	.character__item_icon {
+		width: 38%;
+	}
+	.character__item_big {
+		width: 65%;
+	}
+	.btn_test-drive {
+		width: 48%;
+		height: 56px;
+		justify-content: center;
+	}
+	.btn__item_icon {
+		width: 13%;
+		margin-right: 15px;
+	}
+	.btn__item_big {
+		display: flex;
+		align-items: center;
+	}
+	.button__item_big {
+		position: relative;
+		background-color: #E51937;
+		left: 99px;
+		bottom: 56px;
+		width: 44%;
+		height: 55px;
+		margin: 0 auto;
+	}
+	.btn__item_order {
+		border: 0;
+		color: #fff;
+	}
+}
+
+@media (max-width: 375px) {
+	body {
+		max-width: 375px;
+	}
+
+	.header {
+		margin: 0 auto 23px;
+		width: 97%;
+		height: auto;
+	}
+	.header__wrapper_logo {
+		width: 35%;
+	}
+	.main-logo {
+    	width: 133px;
+		height: 50px;
+	}
+	.header__menu {
+    	width: 15%;
+		height: 21px;
+    	justify-content: center;
+	}
+	.header__wrapper {
+		width: 72%;
+	}
+	.burger__icon {
+		width: 24px;
+		height: 2px;
+		margin-bottom: 5px;
+	}
+
+	.section-main__title {
+		height: 54px;
+	}
+	.section-main__subtitle {
+		margin-bottom: 50px;
+	}
+	.section-main__modelS-logo {
+		width: 95%;
+	}
+	.section-main__logo {
+		top: 156px;
+		right: 18px;
+		width: 100%;
+	}
+	.main-logo_big {
+		width: 113%;
+	}
+
+	.section-main__wrapper {
+		width: 81.5%;
+		height: 125px;
+		margin: 0 auto 32px;
+	}
+	.section-main__wrapper_character {
+		height: 47px;
+		width: 97%;
+		margin-bottom: 32px;
+	}
+	.character {
+		width: 46%;
+	}
+	.btn_test-drive {
+		width: 40%;
+	}
+	.btn__item_icon {
+		width: 17%;
+		margin-right: 8px;
+	}
+	.button__item_big {
+		left: 72px;
+		bottom: 49px;
+		width: 52%;
+		height: 40px;
+		margin: 0 auto;
 	}
 }
