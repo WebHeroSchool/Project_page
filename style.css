@@ -324,6 +324,12 @@ a {
 		max-width: 768px;
 	}
 
+	.section-desc_future-drive,
+	.section-desc_safe-car {
+		display: none;
+	}
+
+
 	.header {
 		width: 96%;
 		margin: 0 auto 50px;
