@@ -90,11 +90,19 @@ a {
 		width: 72%;
 		z-index: 1;
 	}
+	.car-logo {
+		width: 93%;
+	}
 	.section-main__logo {
 		position: absolute;
+		width: 100%;
 		top: 134px;
 		z-index: 0;
 	}
+	.main-logo_big {
+		width: 95%;
+	}
+	
 	.section-main__wrapper {
 		display: flex;
 		margin:0 auto;
@@ -318,6 +326,58 @@ a {
 /*}*/
 
 
+@media (max-width: 1166px) {
+	.header__menu {
+		justify-content: flex-start;
+	}
+	.header__wrapper_link {
+		margin-right: 20px;
+	}
+	.header__wrapper_item {
+		margin-right: 80px;
+	}
+	.section-main__wrapper_character {
+		width: 53%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.header__wrapper_logo {
+		margin-right: 35px;
+	}
+	.header__wrapper_link {
+		margin-right: 12px;
+	}
+	.header__wrapper_item {
+		margin-right: 60px;
+	}
+
+	.section-main__wrapper {
+		display: block;
+	}
+	.section-main__wrapper_character {
+		margin: 0 auto 30px;
+		width: 73%;
+		justify-content: space-around;
+	}
+	.btn_test-drive {
+		margin: 0 auto;
+		justify-content: flex-start;
+		width: 53%;
+	}
+	.button__item_big {
+    position: relative;
+    margin: 0 auto;
+	left: 108px;
+    bottom: 31px;
+	}
+}
+
+@media (max-width: 840px) {
+	.button__item-big {
+		left: 92px;
+	}
+}
 
 @media (max-width: 768px) {
 	body {
@@ -365,6 +425,9 @@ a {
 		margin-bottom: 89px;
 	}
 
+	.section-main__img {
+		margin-bottom: 36px;
+	}
 	.section-main__modelS-logo {
 		width: 91%;
 	}
@@ -383,15 +446,16 @@ a {
 		display: block;
 		width: 65.5%;
 		height: 214px;
-		margin-bottom: 47px;
+		margin-bottom: 36px;
 	}
 	.section-main__wrapper_character {
 		height: 84px;
-		width: 97%;
-		margin-bottom: 63px;
+		width: 100%;
+		justify-content: space-between;
+		margin-bottom: 50px;
 	}
 	.character {
-		width: 44%;
+		width: 47%;
 	}
 	.character__item_icon {
 		width: 38%;
@@ -400,6 +464,7 @@ a {
 		width: 65%;
 	}
 	.btn_test-drive {
+		margin: 0;
 		width: 48%;
 		height: 56px;
 		justify-content: center;
@@ -424,6 +489,41 @@ a {
 	.btn__item_order {
 		border: 0;
 		color: #fff;
+	}
+}
+
+@media (max-width: 700px) {
+	.character__item_big {
+		width: 75%;
+	}
+}
+
+@media (max-width: 615px) {
+	.character__item_big {
+		width: 100%;
+	}
+}
+
+@media (max-width: 565px) {
+	.section-main__wrapper {
+		width: 75.5%;
+	}
+	.section-main__wrapper_character {
+		margin-bottom: 0;
+		height: 75px;
+	}
+}
+
+@media (max-width: 470px) {
+	.section-main__wrapper_character {
+		margin-bottom: 10px;
+	}
+	.character {
+		width: 50%;
+	}
+	.button__item_big {
+		width: 40%;
+		height: 45px;
 	}
 }
 
@@ -464,6 +564,9 @@ a {
 	.section-main__subtitle {
 		margin-bottom: 50px;
 	}
+	.section-main__img {
+		margin-bottom: 24px;
+	}
 	.section-main__modelS-logo {
 		width: 95%;
 	}
@@ -483,7 +586,7 @@ a {
 	}
 	.section-main__wrapper_character {
 		height: 47px;
-		width: 97%;
+		width: 100%;
 		margin-bottom: 32px;
 	}
 	.character {
@@ -502,5 +605,17 @@ a {
 		width: 52%;
 		height: 40px;
 		margin: 0 auto;
+	}
+}
+
+@media (max-width: 327px) {
+	.section-main__wrapper {
+		width: 87.5%;
+	}
+	.character {
+		width: 50%;
+	}
+	.button__item_big {
+		width: 40%;
 	}
 }
