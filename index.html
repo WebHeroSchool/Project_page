@@ -44,15 +44,12 @@
 				<div class = "section-main__modelS-logo">
 					<img class = "car-logo" src = "./Project/tesla_hd.svg" alt = "background-car">
 				</div>
-				<div class = "section-main__logo">
-					<img class = "main-logo_big" src = "./Project/tesla-wordmark-red_big.svg" alt = "logo-tesla">
-				</div>
 			</div>
 			<div class = "section-main__wrapper">
-				<div class = "section-main__wrapper_character">
-					<div class = "character">	
-						<img class = "character__item_icon" src = "./Project/speedometer.svg" alt = "logo-speedometer">
-						<div class = "character__item_big">
+				<div class = "section-main__item_info">
+					<div class = "character character_left">	
+						<img class = "character__item_icon character__item_icon-left" src = "./Project/speedometer.svg" alt = "logo-speedometer">
+						<div class = "character__item_big character__item_font">
 							2,7
 							<span class = "character__item_little"> 
 								сек
@@ -60,9 +57,9 @@
 							<p class = "character__item_small">0-100 км/час</p>
 						</div>
 					</div>
-					<div class = "character">
-						<img class = "character__item_icon" src = "./Project/road_icon.svg" alt = "logo-road">
-						<div class = "character__item_big">
+					<div class = "character character_right">
+						<img class = "character__item_icon character__item_icon-right" src = "./Project/road_icon.svg" alt = "logo-road">
+						<div class = "character__item_big character__item_font">
 							632
 							<span class = "character__item_little">
 								км
@@ -71,42 +68,41 @@
 						</div>
 					</div>
 				</div>
-				<div class = "btn_test-drive">
-					<img class = "btn__item_icon" src = "./Project/steering-wheel.svg" alt = "logo-steering-wheel">
-					<div class = "btn__item_big">
+				<div class = "section-main__item_btns button_main">
+					<div class = "btn_test-drive button__item_alt">
+						<img class = "btn__item_icon button__item_icon-main" src = "./Project/steering-wheel.svg" alt = "logo-steering-wheel">
 						<a href = "#" class = "button__item_link">Тест драйв</a>
 					</div>
-				</div>
-					<div class = button__item_big>
-					<a href="#" class = "button__item_link btn__item_order">Заказать</a>
+					<div class = "button__item_big-order button__item_alt-right">
+						<a href="#" class = "button__item_link btn__item_order">Заказать</a>
+					</div>
 				</div>
 			</div>
-			<div class = "section-main__img_control-down">
+			<div class = "section-main__item_control-down">
 				<img class = "control-down" src = "./Project/vector.svg" alt = "logo-control-down">
 			</div>
 		</section>
-		<section class = "section-desc_future-drive">
-			<div class = "section-desc__wrap_little">
+		<section class = "section-desc section-up">
+			<div class = "section-desc__wrap section-desc__wrap_up">
 				<h1 class = "section-desc__title">Model S</h1>
 			</div>
-			<div class = "item__interior">
-				<img class = "item__icon_interior" src = "./Project/item_interior.svg" alt = "logo-interior">
-			</div>
-			<article class = "text section-desc">
+			<article class = "text">
 				<div class = "text__wrap_main">
-					<h2 class = "text__title">
-						Будущее вождения
-					</h2>
+					<div class = "text__wrap_title">
+						<h2 class = "text__title">
+							Будущее вождения
+						</h2>
+					</div>
 					<p class = "text__content">
 						Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным <br>17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создаёт динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.
 					</p>
 				</div>
-				<div class = "text__wrap_character">
+				<div class = "text__wrap_character text__wrap_character-up">
 					<div class = "text__item">
-						<div class = "text__item_small">
-							<img class = "text__icon" src = "./Project/screen.svg" alt = "logo-screen">
+						<div class = "text__item_small text__item_small-screen">
+							<img class = "text__item_icon" src = "./Project/screen.svg" alt = "logo-screen">
 						</div>
-						<div class = "text__item_big">
+						<div class = "text__item_big character__item_font">
 							17 
 							<span class = "character__item_little">
 								дюймов
@@ -116,8 +112,8 @@
 							</p>
 						</div>
 					</div>
-					<div class = "text__item text__item_1">
-						<div class = "text__item_small">
+					<div class = "text__item">
+						<div class = "text__item_small text__item_small-wifi">
 							<img class = "text__item_icon" src = "./Project/wifi.svg" alt = "logo-wifi">
 						</div>
 						<div class = "character__item_medium">	
@@ -127,11 +123,11 @@
 							</p>
 						</div>
 					</div>
-					<div class = "text__item">
-						<div class = "text__item_small text__item_small1">
+					<div class = "text__item text__item_bag">
+						<div class = "text__item_small text__item_small-bag">
 							<img class = "text__item_icon" src = "./Project/bag.svg" alt = "logo-bag">
 						</div>
-						<div class = "text__item_big">	
+						<div class = "text__item_big character__item_font">	
 							894 
 							<span class = "character__item_little">
 								литра
@@ -142,134 +138,123 @@
 						</div>
 					</div>
 				</div>
-				<div class = "button">
-					<img class = "button__item_icon" src = "./Project/icon_info.svg" alt = "logo-info">
-					<div class = "button__item_bigger">	
-						<a href="#" class = "button__item_link1">Узнать больше</a>
+				<div class = "button button_main">
+					<div class = "button__item_big-info button__item_alt">	
+						<img class = "button__item_icon button__item_icon-main" src = "./Project/icon_info.svg" alt = "logo-info">
+						<a href="#" class = "button__item_link-info">Узнать больше</a>
 					</div>
-					<div class = "button__item_bigger">
-						<a href="#" class = "button__item_link btn__item_order link_color">Заказать</a>
+					<div class = "button__item_big-order button__item_big-right">
+						<a href="#" class = "button__item_link btn__item_order button__item_link-white">Заказать</a>
 					</div>
 				</div>
 			</article>
 		</section>
-		<section class = "section-desc_safe-car">
-			<article class = "text section-desc">
-				<div class = "text__wrap_main">
-					<h2 class = "text__title">
-						Самый безопасный автомобиль в мире
-					</h2>
-					<p class = "text__content">Модель S достигла наивысшей оценки безопасности любого автомобиля, <br> когда-либо испытанного, и установила рекорд по наименьшей вероятности трамвы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
+		<section class = "section-desc section-down">
+			<div class = "section-desc__wrap section-desc__wrap-down">
+				<div class = "safe-body__item_corps">
+					<img class = "item__icon_corps" src = "./Project/car_corps.svg" alt = "logo-corps">
 				</div>
-				<div class = "text__features">
-					<h2 class = "text__subtitle">
-						Оценка защиты:
-					</h2>
-					<div class = "star">
-						<div class = "star__title_front">
-							Спереди
-						</div>
-						<div class = "star__wrapper">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-						</div>
+			</div>
+			<div class = "text">
+				<div class = "text__wrap_main text__wrap_down">
+					<div class = "text__wrap_title text__wrap_title-down">
+						<h2 class = "text__title text__title_down">
+							Самый безопасный автомобиль в мире
+						</h2>
 					</div>
-					<div class = "star">
-						<div class = "star__title_side">					Сбоку
-						</div>
-						<div class = "star__wrapper">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-						</div>
+					<p class = "text__content text__content_down">Модель S достигла наивысшей оценки безопасности любого автомобиля, <br> когда-либо испытанного, и установила рекорд по наименьшей вероятности трамвы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
+				</div>
+				<div class = "text__wrap_character text__wrap_character-down">
+					<div class = "text__wrap_subtitle">
+						<h2 class = "text__title text__subtitle">
+							Оценка защиты:
+						</h2>
 					</div>
-					<div class = "star">
-						<div class = "star__title_side-bar">
-							Сбоку
-							<span class = "star__title_add">
-								(стойка)
-							</span>
+					<div class = "text__wrap_section">
+						<div class = "star">
+							<div class = "star__title">
+								Спереди
+							</div>
+							<div class = "star__wrapper">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+							</div>
 						</div>
-						<div class = "star__wrapper">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+						<div class = "star">
+							<div class = "star__title">
+								Сбоку
+							</div>
+							<div class = "star__wrapper">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+							</div>
 						</div>
-					</div>
-					<div class = "star">
-						<div class = "star__title_driver">
-							Водитель
+						<div class = "star">
+							<div class = "star__title">
+								Сбоку
+								<span class = "star__title_add">
+									(стойка)
+								</span>
+							</div>
+							<div class = "star__wrapper">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+							</div>
 						</div>
-						<div class = "star__wrapper">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+						<div class = "star">
+							<div class = "star__title">
+								Водитель
+							</div>
+							<div class = "star__wrapper">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+							</div>
 						</div>
-					</div>
-					<div class = "star">
-						<div class = "star__title_passenger">
-							Пассажир
+						<div class = "star">
+							<div class = "star__title">
+								Пассажир
+							</div>
+							<div class = "star__wrapper">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+								<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
+							</div>
 						</div>
-						<div class = "star__wrapper">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-							<img class = "star__item" src = "./Project/star.svg" alt = "logo-star">
-						</div>
-					</div>
 					</div>
 				</div>
 				<div class = "score">
-					<div class = "score__item_icon">
-						<img class = "score__icon" src = "./Project/icon_safe.svg" alt = "logo-safe">
+							<img class = "score__item_icon" src = "./Project/icon_safe.svg" alt = "logo-safe">
+						<div class = "score__item_text">
+							5 звезд
+							<span class = "score__item">
+								безопасности
+							</span>
+						</div>
 					</div>
-					<div class = "score__item_text">
-						5 звезд
-						<span class = "score__item">
-							безопасности
-						</span>
+				<div class = "button button_main button_down">
+					<div class = "button__item_big-info button__item_alt">
+						<img class = "button__item_icon button__item_icon-main" src = "./Project/icon_info.svg" alt = "logo-info">	
+						<a href="#" class = "button__item_link-info">Узнать больше</a>
 					</div>
-				</div>
-				<div class = "button">
-					<img class = "button__item_icon" src = "./Project/icon_info.svg" alt = "logo-info">
-					<div class = "button__item_bigger">	
-						<a href="#" class = "button__item_link1">Узнать больше</a>
-					</div>
-					<div class = "button__item_bigger">
-						<a href="#" class = "button__item_link btn__item_order link_color">Заказать</a>
+					<div class = "button__item_big-order button__item_big-down">
+						<a href="#" class = "button__item_link btn__item_order button__item_link-white">Заказать</a>
 					</div>
 				</div>
-			</article>
-			<article class = "section-desc__wrap_big">
-					<div class = "safe-body__item_modelS">
-						<img class = "item__icon_modelS" src = "./Project/modelS.svg" alt = "logo-modelS">
-					</div>
-					<div class = "safe-body__item_corps">
-						<img class = "item__icon_corps" src = "./Project/car_corps.svg" alt = "logo-corps">
-					</div>
-				<div class = "item__line_long item__line">
-					<img class = "item__icon" src = "./Project/line_long.svg" alt = "logo-line_long">
-					Защита от удара спереди
-				</div>
-				<div class = "item__line_medium item__line">
-					<img class = "item__icon" src = "./Project/line_medium.svg" alt = "logo-line_medium">
-					Защита от удара сбоку
-				</div>
-				<div class = "item__line_small item__line">
-					<img class = "item__icon" src = "./Project/line_small.svg" alt = "logo-line_small">
-					Минимальный риск перевернуться в аварии
-				</div>
-			</article>
+			</div>
 		</section>
 	</body>
 </html>
