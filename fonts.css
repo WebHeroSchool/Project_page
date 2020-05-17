@@ -1,145 +1,146 @@
 /* Шрифты */
-	@font-face {
-		font-family: "Montserrat";
-		src:	url("Fonts/Montserrat-Bold.otf") format("opentype"),
-					url("Fonts/Montserrat-Bold.ttf") format("truetype");
-		font-weight: 700;
-		font-style: normal;
-	}
+@font-face {
+	font-family: "Montserrat";
+	src:
+		url("Fonts/Montserrat-Bold.otf") format("opentype"),
+		url("Fonts/Montserrat-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
 
-	@font-face {
-		font-family: "Montserrat";
-		src: url("Fonts/Montserrat-Medium.otf") format("opentype"),
-				 url("Fonts/Montserrat-Medium.ttf") format("truetype");
-		font-weight: 500;
-		font-style: normal;
-	}
+@font-face {
+	font-family: "Montserrat";
+	src:
+		url("Fonts/Montserrat-Medium.otf") format("opentype"),
+	  url("Fonts/Montserrat-Medium.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+}
 
-	@font-face {
-	  font-family: "Montserrat";
-	  src: url("Fonts/Montserrat-SemiBold.otf") format("opentype"),
-				 url("Fonts/Montserrat-SemiBold.ttf") format("truetype");
-	  font-weight: 600;
-	  font-style: normal;
-	}
+@font-face {
+  font-family: "Montserrat";
+  src:
+  	url("Fonts/Montserrat-SemiBold.otf") format("opentype"),
+	  url("Fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
 
-	@font-face {
-    font-family: "Montserrat";
-    src: url("Fonts/Montserrat-Regular.otf") format("opentype"),
-		 		 url("Fonts/Montserrat-Regular.ttf") format("truetype");
-	  font-weight: normal;
-	  font-style: normal;
-	}
+@font-face {
+  font-family: "Montserrat";
+  src:
+  	url("Fonts/Montserrat-Regular.otf") format("opentype"),
+	  url("Fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
-	body {
-		font-family: "Montserrat";
-	}
+body {	font-family: Montserrat, sans-serif;	}
 
+/* Desktop */	
 
-/* Desktop */
-	
-	/* Шапка */
-		.header {
-			font-weight: 600;
-			font-size: 15px;
-			line-height: 18px;
-		}
+/* Шапка */
+.header {
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 18px;
+}
 
-	/* Домашний экран */
-		.section-main__title {
-			font-weight: 600;
-			font-size: 90px;
-			line-height: 110px;
-		}
+/* Домашний экран */
+.section-main__title {
+	font-weight: 600;
+	font-size: 90px;
+	line-height: 110px;
+}
 
-		.section-main__subtitle {
-			font-weight: 500;
-			font-size: 15px;
-			line-height: 18px;
-		}
+.section-main__subtitle {
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+}
 
-		.character__item_big {
-			font-weight: 600;
-			font-size: 35px;
-			line-height: 40px;
-		}
+.character__item_big {
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 40px;
+}
 
-		.character__item_little {
-			font-size: 20px;
-			line-height: 24px;
-		}
+.character__item_little {
+	font-size: 20px;
+	line-height: 24px;
+}
 
-		.character__item_small {
-			font-weight: normal;
-			font-size: 12px;
-			line-height: 15px;
-		}
+.character__item_small {
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+}
 
-		.button__item_link, 
-		.button__item_link-info {
-			font-weight: 700;
-			font-size: 13px;
-			line-height: 16px
-		}
+.button__item_link,
+.button__item_link-info {
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 16px
+}
 
-	/* Второй экран*/
-		.section-desc__title {
-			font-size: 68px;
-			line-height: 85px;
-		}
+/* Второй экран */
+.section-desc__title {
+	font-size: 68px;
+	line-height: 85px;
+}
 
-		.text__title {
-			font-weight: 600;
-			font-size: 30px;
-			line-height: 37px;
-		}
+.text__title {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 37px;
+}
 
-		.text__content {
-			font-weight: 500;
-			font-size: 14px;
-			line-height: 18.4px;
-		}
+.text__content {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18.4px;
+}
 
-		.text__item_big {
-			font-weight: 600;
-			font-size: 35px;
-			line-height: 30px;
-		}
+.text__item_big {
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 30px;
+}
 
-		.character__item_medium {
-			font-weight: 600;
-			font-size: 20px;
-			line-height: 20px;
-		}
+.character__item_medium {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 20px;
+}
 
-	/* Третий экран*/
-		.score {
-			font-weight: 600;
-			font-size: 50px;
-			line-height: 30px;
-		}
+/* Третий экран */
+.score {
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 30px;
+}
 
-		.score__item {
-			font-weight: 600;
-			font-size: 25px;
-			line-height: 30px;
-		}
+.score__item {
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 30px;
+}
 
-		.star {
-			font-weight: 700;
-			font-size: 17px;
-			line-height: 21px;
-		}
+.star {
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 21px;
+}
 
-		.star__title_add {
-			font-weight: 700;
-			font-size: 10px;
-			line-height: 12px;
-		}	
+.star__title_add {
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 12px;
+}	
 
-		.safe-body {
-			font-weight: 600;
-		}
+.safe-body {
+	font-weight: 600;
+}
 
 /* Адаптив первой секции */	
 	@media (max-width: 1130px) {
@@ -268,7 +269,7 @@
 	}
 
 	@media (max-width: 726px) {
-		.text__title {	font-size: 25px;	}
+		.text__title {	font-size: 28px;	}
 
 		.text__content {
    		font-size: 12px;
@@ -281,13 +282,15 @@
 		.button__item_link-info {	font-size: 13px;	}
 	}
 
-	@media (max-width: 645px) {
-		.text__title {	font-size: 22px;	}
+	@media (max-width: 650px) {
+		.text__title {	font-size: 24px;	}
 
 		.text__content {
     	font-size: 11px;
    		line-height: 15.4px;
 		}
+
+		.text__item_big { font-size: 30px; }
 
 		.character__item_medium {	font-size: 15px;	}
 
@@ -305,10 +308,8 @@
 		.button__item_link-info {	font-size: 11px;	}
 	}
 
-	@media (max-width: 600px) {
+	@media (max-width: 605px) {
 		.section-desc__title {	font-size: 58px;	}
-
-		.text__title {	font-size: 19px;	}
 
 		.text__content {	font-size: 10px;	}
 
@@ -317,14 +318,20 @@
 		.character__item_medium {	font-size: 15px;	}
 	}
 
-	@media (max-width: 430px) {
-		.section-desc__title {	font-size: 53px;	}
+	@media (max-width: 540px) {
+		.text__title { font-size: 18px; }
+	}
 
-		.text__title {	font-size: 17px;	}
+	@media (max-width: 465px) {
+		.section-desc__title {	font-size: 53px;	}
 
 		.character__item_medium {	font-size: 14px;	}
 
 		.character__item_font {	font-size: 26px;	}
+	}
+
+	@media (max-width: 400px) {
+		.text__title { font-size: 17px; }
 	}
 
 	@media (max-width: 375px) {
@@ -399,12 +406,11 @@
 	}
 
 	@media (max-width: 645px) {
-		.star {
-    	font-weight: 600;
-    	font-size: 11px;
-		}
-
 		.star__title_add {	font-size: 6px;	}
 
 		.star__item {	margin-right: 0;	}
+	}
+
+	@media (max-width: 545px) {
+		.star {	font-size: 10px;	}
 	}
