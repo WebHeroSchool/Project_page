@@ -309,7 +309,7 @@ a { text-decoration: none; }
 @media (max-width: 1245px) {
   .header__wrapper_item,
   .header__wrapper { flex: none; }
-  
+
   .header__wrapper { padding-right: 25px; }
 
   .section-main__wrapper { width: 68%; }
