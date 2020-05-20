@@ -341,7 +341,7 @@ a { text-decoration: none; }
 @media (max-width: 840px) {
   .header__wrapper_logo,
   .header__menu { flex: none; }
-  
+
   .header__wrapper_item { margin-right: 28px; }
 
   .header__link { margin-right: 15px; }
@@ -354,6 +354,7 @@ a { text-decoration: none; }
     height: 100px;
     margin-bottom: 55px;
   }
+
   .header__wrapper_logo { margin-right: auto; }
 
   .header__menu {
@@ -412,7 +413,7 @@ a { text-decoration: none; }
   .character__item_icon { margin-right: 7px; }
   .character__item_icon-left { width: 27%; }
   .character__item_icon-right { width: 20%; }
-  
+
   .section-main__item_btns { width: 64%; }
 
   .button_main {
@@ -421,13 +422,13 @@ a { text-decoration: none; }
   }
 
   .btn_test-drive { padding-left: 14px; }
-  
+
   .btn__item_icon { margin-right: 16px; }
 
   .button__item_icon-main { width: 30px; }
 
   .button__item_link { color: #e51937; }
-  
+
   .button__item_alt-right {
     padding-right: 15px;
     flex: .7;
@@ -448,7 +449,7 @@ a { text-decoration: none; }
   .section-main { background-position: 26% 24%; }
 
   .btn__item_icon { margin-right: 5px; }
-  
+
   .button__item_big { padding-left: 25px; }
 }
 
@@ -465,6 +466,7 @@ a { text-decoration: none; }
   }
 
   .header__menu { flex: .175; }
+
   .header__link-home { width: 91%; }
 
   .burger__icon {
@@ -672,6 +674,7 @@ a { text-decoration: none; }
     width: 41%;
     padding-right: 17px;
   }
+
   .button__item_big-order { padding-left: 0; }
 }
 
@@ -846,6 +849,7 @@ a { text-decoration: none; }
 
   .text__wrap_character-down,
   .text__wrap_down { padding-left: 20px; }
+
   .text__wrap_character-down { height: 205px; }
 
   .score {
