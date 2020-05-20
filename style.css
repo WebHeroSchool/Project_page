@@ -693,7 +693,7 @@ a { text-decoration: none; }
 
 @media (max-width: 560px) {
   .section-desc__wrap_little { height: 385px; }
-  
+
   .text__wrap_main { padding-left: 12px; }
 
   .text__title { letter-spacing: 0; }
