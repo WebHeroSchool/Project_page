@@ -142,18 +142,7 @@ body { font-family: Montserrat, sans-serif; }
 
 /* Адаптив первой секции */
 @media (max-width: 1130px) {
-  .header__link { font-size: 13px; }
-
   .section-main__title { font-size: 85px; }
-
-  .character__item_font { font-size: 32px; }
-
-  .character__item_little { font-size: 18px; }
-
-  .character__item_small { font-size: 10px; }
-
-  .button__item_link,
-  .button__item_link-info { font-size: 12px; }
 }
 
 @media (max-width: 768px) {
@@ -171,8 +160,7 @@ body { font-family: Montserrat, sans-serif; }
 
 @media (max-width: 700px) {
   .character__item_big {
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 40px;
   }
 }
 
@@ -190,24 +178,17 @@ body { font-family: Montserrat, sans-serif; }
     line-height: 39px;
   }
 
-  .character__item_little { font-size: 15px; }
 
-  .character__item_small {
-    font-size: 9px;
-    line-height: 2px;
-  }
 }
 
 /* Адаптив второй секции */
 @media (max-width: 1265px) {
   .text__title {
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 27px;
   }
 
   .text__content {
-    font-size: 12px;
-    line-height: 17.4px;
+    font-size: 13px;
   }
 
   .character__item_medium { font-size: 18px; }
@@ -216,22 +197,7 @@ body { font-family: Montserrat, sans-serif; }
 }
 
 @media (max-width: 990px) {
-  .section-desc__title { font-size: 53px; }
-
-  .text__title { font-size: 20px; }
-
-  .text__content {
-    font-size: 11px;
-    line-height: 18px;
-  }
-
-  .text__item_big { font-size: 26px; }
-
-  .character__item_little { font-size: 14px; }
-
-  .character__item_medium { font-size: 15px; }
-
-  .button__item_link-info { font-size: 11px; }
+  .section-desc__title { font-size: 62px; }
 }
 
 @media (max-width: 768px) {
@@ -274,126 +240,47 @@ body { font-family: Montserrat, sans-serif; }
     line-height: 17.4px;
   }
 
-  .character__item_medium { font-size: 15px; }
-
   .button__item_link,
   .button__item_link-info { font-size: 13px; }
 }
 
 @media (max-width: 650px) {
   .text__title { font-size: 24px; }
-
-  .text__content {
-    font-size: 11px;
-    line-height: 15.4px;
-  }
-
-  .text__item_big { font-size: 30px; }
-
-  .character__item_medium { font-size: 15px; }
-
-  .character__item_little {
-    font-size: 16px;
-    line-height: 20px;
-  }
-
-  .character__item_small {
-    font-size: 10px;
-    line-height: 13px;
-  }
-
-  .button__item_link,
-  .button__item_link-info { font-size: 11px; }
 }
 
 @media (max-width: 605px) {
-  .section-desc__title { font-size: 58px; }
+  .text__title { font-size: 22px; }
 
-  .text__content { font-size: 10px; }
+  .text__content { font-size: 11px; }
 
-  .character__item_font { font-size: 28px; }
+  .text__item_big { font-size: 28px; }
 
-  .character__item_medium { font-size: 15px; }
+  .character__item_medium { font-size: 17px; }
 }
 
-@media (max-width: 560px) {
-  .text__title { font-size: 18px; }
-}
-
-@media (max-width: 465px) {
-  .section-desc__title { font-size: 53px; }
-
-  .character__item_medium { font-size: 14px; }
-
-  .character__item_font { font-size: 26px; }
-}
-
-@media (max-width: 400px) {
-  .text__title { font-size: 17px; }
-}
-
-@media (max-width: 375px) {
+@media (max-width: 525px) {
   .text__title { font-size: 29px; }
 
   .text__content {
     font-size: 14px;
     line-height: 19px;
   }
-
-  .button__item_link { font-size: 13px; }
 }
 
-@media (max-width: 330px) {
-  .text__title { font-size: 27px; }
+@media (max-width: 375px) {
+  .character__item_little { font-size: 15px; }
+
+  .character__item_small {
+    font-size: 10px;
+    line-height: 2px;
+  }
+}
+
+@media (max-width: 341px) {
+  .text__title { font-size: 26px; }
 }
 
 /* Адаптив третьей секции */
-@media (max-width: 1410px) {
-  .star { font-size: 16px; }
-
-  .score { font-size: 38px; }
-
-  .score__item { font-size: 23px; }
-}
-
-@media (max-width: 1265px) {
-  .star {
-    font-weight: 600;
-    font-size: 12px;
-  }
-
-  .score { font-size: 30px; }
-
-  .score__item { font-size: 21px; }
-}
-
-@media (max-width: 1150px) {
-  .star {
-    font-weight: 600;
-    font-size: 12px;
-  }
-
-  .score {
-    font-size: 28px;
-    line-height: 27px;
-  }
-
-  .score__item { font-size: 19px; }
-}
-
-@media (max-width: 900px) {
-  .star { font-size: 11px; }
-
-  .star__title_add { font-size: 7px; }
-
-  .score {
-    font-size: 28px;
-    line-height: 27px;
-  }
-
-  .score__item { font-size: 19px; }
-}
-
 @media (max-width: 768px) {
   .star {
     font-weight: 700;
@@ -403,20 +290,8 @@ body { font-family: Montserrat, sans-serif; }
   .star__title_add { font-size: 10px; }
 }
 
-@media (max-width: 726px) {
+@media (max-width: 656px) {
   .star { font-size: 13px; }
 
-  .star__title_add { font-size: 8px; }
-
-  .star__item { margin-right: 2px; }
-}
-
-@media (max-width: 645px) {
   .star__title_add { font-size: 6px; }
-
-  .star__item { margin-right: 0; }
-}
-
-@media (max-width: 545px) {
-  .star { font-size: 10px; }
 }
