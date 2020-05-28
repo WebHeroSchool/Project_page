@@ -143,11 +143,6 @@ a { text-decoration: none; }
 
 .button__link_test-drive { color: #000; }
 
-.button:hover { cursor: pointer; }
-
-.button:hover,
-.button-order__link:hover { padding-bottom: 2px; }
-
 .section-main__block-buttons { flex: .4; }
 
 .section-main__button { min-width: 121px; }
@@ -167,6 +162,11 @@ a { text-decoration: none; }
 }
 
 .button__link { text-transform: uppercase; }
+
+.button:hover { cursor: pointer; }
+
+.button:hover,
+.button-order__link:hover { padding-bottom: 2px; }
 
 /* Второй экран */
 .section-desc,
@@ -635,7 +635,6 @@ a { text-decoration: none; }
   .text__character,
   .buttons { display: none; }
 
-
   .section-desc__wrap_up {
     background-size: cover;
     background-position: 0 5px;
@@ -742,7 +741,6 @@ a { text-decoration: none; }
   .text__character {
     justify-content: space-between;
     width: 38%;
-
   }
 
   .text__wrap_subtitle,
