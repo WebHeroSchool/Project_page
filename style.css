@@ -120,6 +120,9 @@ a { text-decoration: none; }
 .section-main__wrapper,
 .section-main__item-info { justify-content: space-between; }
 
+.button-order__link,
+.section-main__control-down { justify-content: center; }
+
 .section-main__wrapper {
   min-width: 700px;
   width: 56%;
@@ -155,9 +158,6 @@ a { text-decoration: none; }
   height: 38px;
   padding-left: 34px;
 }
-
-.button-order__link,
-.section-main__control-down { justify-content: center; }
 
 .button-order__link {
   width: 100%;
@@ -312,6 +312,7 @@ a { text-decoration: none; }
   .section-main__item-info { flex: .51; }
 
 }
+
 @media (max-width: 1130px) {
   .section-main {
     background-position: 0% 8%;
@@ -397,7 +398,6 @@ a { text-decoration: none; }
 
   .section-main__character,
   .section-main__button { margin-right: 0; }
-
 
   .character__icon { margin-right: 7px; }
   .character__icon_left { width: 27%; }
@@ -547,8 +547,8 @@ a { text-decoration: none; }
     width: auto;
     height: auto;
     background: 0;
-
   }
+
   .section-desc__wrap_up {
     height: 486px;
     padding-top: 45px;
@@ -639,9 +639,8 @@ a { text-decoration: none; }
   .section-desc__wrap_up {
     background-size: cover;
     background-position: 0 5px;
+    padding-top: 0;
   }
-
-  .section-desc__wrap_up { padding-top: 0; }
 
   .section-desc__text { height: 305px; }
 
@@ -673,7 +672,7 @@ a { text-decoration: none; }
     height: 238px;
     margin: auto;
     letter-spacing: .6px;
-  }  
+  }
 }
 
 /* Адаптив третьей секции */
@@ -745,6 +744,7 @@ a { text-decoration: none; }
     width: 38%;
 
   }
+
   .text__wrap_subtitle,
   .text__block,
   .section-desc__block,
