@@ -59,25 +59,25 @@ body { font-family: Montserrat, sans-serif; }
   line-height: 18px;
 }
 
-.character__item_big {
+.character__item {
   font-weight: 600;
   font-size: 35px;
   line-height: 40px;
 }
 
-.character__item_little {
+.character__desc-little {
   font-size: 20px;
   line-height: 24px;
 }
 
-.character__item_small {
+.character__desc-small {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
 }
 
-.button__item_link,
-.button__item_link-info {
+.button__link,
+.button__link_info {
   font-weight: 700;
   font-size: 13px;
   line-height: 16px;
@@ -107,26 +107,26 @@ body { font-family: Montserrat, sans-serif; }
   line-height: 30px;
 }
 
-.character__item_medium {
+.character__desc-medium {
   font-weight: 600;
   font-size: 20px;
   line-height: 20px;
 }
 
 /* Третий экран */
-.score {
+.text__aside {
   font-weight: 600;
   font-size: 50px;
   line-height: 30px;
 }
 
-.score__item {
+.score__span {
   font-weight: 600;
   font-size: 25px;
   line-height: 30px;
 }
 
-.star {
+.section-desc__block {
   font-weight: 700;
   font-size: 17px;
   line-height: 21px;
@@ -148,20 +148,18 @@ body { font-family: Montserrat, sans-serif; }
 @media (max-width: 768px) {
   .section-main__title { font-size: 90px; }
 
-  .character__item_big {
+  .character__item {
     font-size: 51px;
     line-height: 50px;
   }
 
-  .character__item_little { font-size: 20px; }
+  .character__desc-little { font-size: 20px; }
 
-  .button__item_link { font-size: 16px; }
+  .button__link { font-size: 16px; }
 }
 
 @media (max-width: 700px) {
-  .character__item_big {
-    font-size: 40px;
-  }
+  .character__item { font-size: 40px; }
 }
 
 @media (max-width: 510px) {
@@ -173,27 +171,22 @@ body { font-family: Montserrat, sans-serif; }
 
   .section-main__subtitle { font-size: 10px; }
 
-  .character__item_big {
+  .character__item {
     font-size: 28px;
     line-height: 39px;
   }
-
 
 }
 
 /* Адаптив второй секции */
 @media (max-width: 1265px) {
-  .text__title {
-    font-size: 27px;
-  }
+  .text__title { font-size: 27px; }
 
-  .text__content {
-    font-size: 13px;
-  }
+  .text__content { font-size: 13px; }
 
-  .character__item_medium { font-size: 18px; }
+  .character__desc-medium { font-size: 18px; }
 
-  .button__item_link-info { font-size: 12px; }
+  .button__link_info { font-size: 12px; }
 }
 
 @media (max-width: 990px) {
@@ -207,10 +200,7 @@ body { font-family: Montserrat, sans-serif; }
     font-weight: 600;
   }
 
-  .text__title {
-    font-size: 30px;
-    line-height: 40px;
-  }
+  .text__title { font-size: 30px; }
 
   .text__content {
     font-size: 14px;
@@ -222,14 +212,14 @@ body { font-family: Montserrat, sans-serif; }
     line-height: 40px;
   }
 
-  .character__item_little { font-size: 20px; }
+  .character__desc-little { font-size: 20px; }
 
-  .character__item_small { font-size: 12px; }
+  .character__desc-small { font-size: 12px; }
 
-  .character__item_medium { font-size: 20px; }
+  .character__desc-medium { font-size: 20px; }
 
-  .button__item_link,
-  .button__item_link-info { font-size: 16px; }
+  .button__link,
+  .button__link_info { font-size: 16px; }
 }
 
 @media (max-width: 726px) {
@@ -240,8 +230,8 @@ body { font-family: Montserrat, sans-serif; }
     line-height: 17.4px;
   }
 
-  .button__item_link,
-  .button__item_link-info { font-size: 13px; }
+  .button__link,
+  .button__link_info { font-size: 13px; }
 }
 
 @media (max-width: 650px) {
@@ -255,7 +245,7 @@ body { font-family: Montserrat, sans-serif; }
 
   .text__item_big { font-size: 28px; }
 
-  .character__item_medium { font-size: 17px; }
+  .character__desc-medium { font-size: 17px; }
 }
 
 @media (max-width: 525px) {
@@ -268,9 +258,9 @@ body { font-family: Montserrat, sans-serif; }
 }
 
 @media (max-width: 375px) {
-  .character__item_little { font-size: 15px; }
+  .character__desc-little { font-size: 15px; }
 
-  .character__item_small {
+  .character__desc-small {
     font-size: 10px;
     line-height: 2px;
   }
@@ -282,7 +272,7 @@ body { font-family: Montserrat, sans-serif; }
 
 /* Адаптив третьей секции */
 @media (max-width: 768px) {
-  .star {
+  .section-desc__block {
     font-weight: 700;
     font-size: 17px;
   }
@@ -291,7 +281,7 @@ body { font-family: Montserrat, sans-serif; }
 }
 
 @media (max-width: 656px) {
-  .star { font-size: 13px; }
+  .section-desc__block { font-size: 13px; }
 
   .star__title_add { font-size: 6px; }
 }
