@@ -1,0 +1,816 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p { margin: 0; }
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a { text-decoration: none; }
+
+/* Desktop */
+
+/* Шапка */
+.header,
+.header__logo,
+.header__menu,
+.header__wrapper { display: flex; }
+
+.header,
+.header__menu,
+.header__wrapper_center { justify-content: space-between; }
+
+.header__logo,
+.header__wrapper_right { justify-content: center; }
+
+.header {
+  align-items: center;
+  height: 104px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.header__logo {
+  min-width: 167px;
+  flex: .18;
+}
+
+.header__menu {
+  height: 24px;
+  flex: .675;
+}
+
+.header__wrapper_center {
+  min-width: 360px;
+  padding-left: 54px;
+  flex: .353;
+}
+
+.header__link,
+.header__burger { padding-top: 2px; }
+
+.header__link { color: #000; }
+
+.header__wrapper_right {
+  min-width: 215px;
+  flex: .232;
+}
+
+.header__link_right { margin-right: 30px; }
+
+.header__burger:hover { cursor: pointer; }
+
+.burger__icon {
+  display: block;
+  width: 25px;
+  height: 2.5px;
+  margin-bottom: 4px;
+  background-color: #e51937;
+  border-radius: 0 0 5px 5px;
+}
+
+.header__link_center:first-child {
+  border-bottom: 2px solid #e51937;
+  border-radius: 2.5px;
+  color: #e51937;
+}
+
+.header__link:hover,
+.header__burger:hover { padding-top: 0; }
+
+/* Первый экран */
+.section-main {
+  margin-bottom: 34px;
+  background: url(./Project/tesla-wordmark-red_big.svg) no-repeat;
+  background-position: top;
+}
+
+.section-main__title,
+.section-main__subtitle { text-align: center; }
+
+.section-main__title { height: 101px; }
+
+.section-main__subtitle,
+.section-main__img { margin-bottom: 26px; }
+
+.section-main__modelS-logo { width: 95%; }
+
+.section-main__car-logo,
+.section-main__wrapper { margin: auto; }
+
+.section-main__wrapper,
+.section-main__item-info,
+.section-main__block-buttons,
+.section-main__character,
+.buttons,
+.button,
+.button-order,
+.button-order__link,
+.section-main__control-down { display: flex; }
+
+.section-main__wrapper,
+.section-main__item-info { justify-content: space-between; }
+
+.button-order__link,
+.section-main__control-down { justify-content: center; }
+
+.section-main__wrapper {
+  min-width: 700px;
+  width: 56%;
+  margin-bottom: 32px;
+}
+
+.section-main__item-info { flex: .48; }
+
+.character_right { padding-right: 5px; }
+
+.character__icon,
+.button__icon { margin-right: 10px; }
+
+.section-main__block-buttons,
+.button-order__link,
+.button,
+.button-order { align-items: center; }
+
+.button__link_test-drive { color: #000; }
+
+.section-main__block-buttons { flex: .4; }
+
+.section-main__button { min-width: 121px; }
+
+.section-main__button-order { width: 51%; }
+
+.button-order {
+  height: 38px;
+  padding-left: 34px;
+}
+
+.button-order__link {
+  width: 100%;
+  height: inherit;
+  border: 2px solid #e51937;
+  color: #e51937;
+}
+
+.button__link { text-transform: uppercase; }
+
+.button:hover { cursor: pointer; }
+
+.button:hover,
+.button-order__link:hover { padding-bottom: 2px; }
+
+/* Второй экран */
+.section-desc,
+.text__character,
+.text__item,
+.text__small-wifi { display: flex; }
+
+.section-desc,
+.buttons { margin: auto; }
+
+.section-desc { height: 900px; }
+
+.section-up {
+  background: url(./Project/item_interior.svg) no-repeat;
+  background-position: 1% 100%;
+}
+
+.section-desc__wrap_up { padding-top: 65px; }
+
+.section-desc__wrap { flex: .695; }
+
+.section-desc__title {
+  padding-left: 82px;
+  letter-spacing: 1px;
+  color: #e51937;
+}
+
+.section-desc__text,
+.button__link_info,
+.button-order__link_color { color: #fff; }
+
+.section-desc__text {
+  min-width: 360px;
+  padding-top: 54px;
+  background-color: #e51937;
+  flex: .305;
+}
+
+.text__wrap {
+  margin-bottom: 65px;
+  padding-left: 51px;
+}
+
+.text__title { margin-bottom: 11px; }
+
+.text__content {
+  width: 86%;
+  letter-spacing: .6px;
+}
+
+.text__character {
+  flex-direction: column;
+  justify-content: space-between;
+  height: 260px;
+  margin-bottom: 170px;
+  padding-left: 46px;
+}
+
+.text__small-screen,
+.text__small-bag { padding: 5px 0 0 5px; }
+.text__small-bag { margin-right: 24px; }
+
+.text__small-screen,
+.text__small-wifi { margin-right: 20px; }
+
+.text__item_bag,
+.text__small-wifi { padding-bottom: 4px; }
+
+.buttons { justify-content: center; }
+
+.section-desc__button-order { width: 36%; }
+
+.button-order__link_color { border: 2px solid #fff; }
+
+/* Третий экран */
+.section-down {
+  position: relative;
+  flex-direction: row-reverse;
+}
+
+.text__character_down,
+.text__wrap_down { padding-left: 58px; }
+
+.text__wrap_down { margin-bottom: 55px; }
+
+.text__character_down {
+  height: 236px;
+  margin-bottom: 109px;
+}
+
+.text__block,
+.section-desc__block,
+.star__wrapper,
+.score { display: flex; }
+
+.text__block,
+.section-desc__block { justify-content: space-between; }
+
+.text__block {
+  flex-direction: column;
+  width: 96%;
+  height: 172px;
+}
+
+.section-desc__block {
+  width: 80%;
+  min-width: 292px;
+  text-transform: uppercase;
+}
+
+.star__item { margin-right: 3px; }
+
+.text__aside {
+  margin-bottom: 41px;
+  padding-left: 67px;
+}
+
+.score__item { padding-top: 5px; }
+
+.score__icon {
+  margin-right: 25px;
+  padding-bottom: 19px;
+}
+
+.section-desc__wrap_down {
+  background: url(./Project/modelS.svg) no-repeat;
+  background-position: 99% 19%;
+}
+
+.section-desc__content {
+  position: relative;
+  right: 93px;
+  top: 172px;
+  z-index: 1;
+}
+
+.section-desc__corps-icon { max-width: 107%; }
+
+/* Адаптив первой секции */
+
+/* Desktop */
+@media (max-width: 1245px) {
+  .section-main__item-info { flex: .51; }
+
+}
+
+@media (max-width: 1130px) {
+  .section-main {
+    background-position: 0% 8%;
+    background-size: contain;
+  }
+
+  .section-main__modelS-logo { width: auto; }
+}
+
+@media (max-width: 960px) {
+  .header__link_right { margin-right: 20px; }
+}
+
+@media (max-width: 900px) {
+  .header { justify-content: space-around; }
+}
+
+@media (max-width: 840px) {
+  .header__wrapper_center { padding-left: 0; }
+}
+
+/* Планшет */
+@media (max-width: 768px) {
+  .header {
+    width: 97%;
+    height: 100px;
+    margin-bottom: 55px;
+  }
+
+  .header__logo { margin-right: auto; }
+
+  .header__wrapper_center,
+  .header__link_right { display: none; }
+
+  .header__wrapper_right {
+    min-width: 0;
+    flex: .155;
+  }
+
+  .burger__icon {
+    height: 3px;
+    width: 35px;
+    margin-bottom: 7px;
+    background-color: #e51937;
+    border-radius: 0 0 5px 5px;
+  }
+
+  .section-main {
+    background-position: 25% 17%;
+    background-size: 111%;
+  }
+
+  .section-main__subtitle { margin-bottom: 89px; }
+
+  .section-main__img { margin-bottom: 44px; }
+
+  .section-main__car-logo { width: 91%; }
+
+  .section-main__wrapper {
+    width: auto;
+    flex-wrap: wrap;
+    min-width: 0;
+    justify-content: space-around;
+    margin-bottom: 56px;
+  }
+
+  .section-main__character,
+  .section-main__item-info { justify-content: center; }
+
+  .section-main__item-info,
+  .section-main__block-buttons { flex: none; }
+
+  .section-main__item-info {
+    width: 100%;
+    margin-bottom: 48px;
+  }
+
+  .section-main__character {
+    min-width: 180px;
+    align-items: stretch;
+    flex: .37;
+  }
+
+  .section-main__character,
+  .section-main__button { margin-right: 0; }
+
+  .character__icon { margin-right: 7px; }
+  .character__icon_left { width: 27%; }
+  .character__icon_right { width: 20%; }
+
+  .buttons,
+  .section-main__block-buttons {
+    justify-content: space-around;
+    width: 64%;
+    min-width: 350px;
+    height: 63px;
+  }
+
+  .button__wrap {
+    width: 30px;
+    height: 30px;
+    background: url(./Project/steering-wheel-red.svg) no-repeat;
+    background-size: contain;
+    margin-right: 15px;
+  }
+
+  .section-main__button { padding-left: 14px; }
+
+  .button__icon_off { display: none; }
+
+  .button__icon { width: 30px; }
+
+  .button__link { color: #e51937; }
+
+  .section-main__button-order { padding-right: 15px; }
+
+  .button-order {
+    min-width: 145px;
+    height: 52px;
+    padding-left: 0;
+    flex: .74;
+  }
+
+  .button-order__link {
+    background-color: #e51937;
+    color: #fff;
+  }
+}
+
+@media (max-width: 650px) {
+  .header__wrapper_right { min-width: 60px; }
+
+  .button__wrap {
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+  }
+
+  .button-order { height: 38px; }
+}
+
+@media (max-width: 510px) {
+  .section-main { background-position: 26% 24%; }
+
+  .button__icon { margin-right: 5px; }
+
+  .button__item_big { padding-left: 25px; }
+}
+
+/* Телефон */
+@media (max-width: 375px) {
+  .header {
+    width: 99%;
+    height: 47px;
+    margin-bottom: 2px;
+  }
+
+  .header__logo {
+    justify-content: flex-start;
+    min-width: 0;
+    flex: .4;
+  }
+
+  .header__link-home { width: 91%; }
+
+  .burger__icon {
+    width: 23px;
+    height: 2.5px;
+    margin-bottom: 4px;
+    border-radius: 0 0 6px 6px;
+  }
+
+  .section-main {
+    margin-bottom: 0;
+    background-position: 40% 28%;
+    background-size: 114%;
+  }
+
+  .section-main__title { height: 81px; }
+
+  .section-main__subtitle { margin-bottom: 46px; }
+
+  .section-main__img { margin-bottom: 22px; }
+
+  .section-main__car-logo { width: 96%; }
+
+  .section-main__wrapper {
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .section-main__item-info {
+    justify-content: space-around;
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .section-main__character {
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+    height: 48px;
+    padding-top: 2px;
+    flex: .44;
+  }
+
+  .character__item { padding-bottom: 8px; }
+
+  .character__icon_left { width: 31%; }
+
+  .character_left { padding-left: 4px; }
+
+  .character_right { padding-right: 7px; }
+
+  .section-main__block-buttons { width: 96%; }
+
+  .button__icon { width: auto; }
+
+  .section-main__button-order {
+    height: 37px;
+    padding-right: 12px;
+    flex: .74;
+  }
+}
+
+/* Адаптив второй секции */
+
+/* Планшет */
+@media (max-width: 768px) {
+  .section-desc {
+    display: block;
+    width: auto;
+    height: auto;
+    background: 0;
+  }
+
+  .section-desc__wrap_up {
+    height: 486px;
+    padding-top: 45px;
+    background: url(./Project/item_interior.svg) no-repeat;
+    background-size: contain;
+    background-position: 0 100%;
+  }
+
+  .section-desc__title {
+    width: 94%;
+    text-align: right;
+    padding-left: 0;
+  }
+
+  .section-desc__text {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 485px;
+    padding-top: 0;
+  }
+
+  .text__wrap {
+    width: 45.5%;
+    min-width: 268px;
+    margin: 0;
+    padding-top: 57px;
+    padding-left: 33px;
+  }
+
+  .text__title { margin-bottom: 17px; }
+
+  .text__content {
+    width: 90%;
+    height: 220px;
+    margin: 0;
+    padding-left: 2px;
+    letter-spacing: .6px;
+  }
+
+  .text__character {
+    height: 243px;
+    margin: 0;
+    padding-top: 57px;
+    padding-left: 69px;
+  }
+
+  .text__item_bag,
+  .text__small-wifi { padding-bottom: 0; }
+
+  .text__small-screen,
+  .text__small-bag { padding: 10px 0 0 2px; }
+  .text__small-screen { margin-right: 20px; }
+  .text__small-bag { margin-right: 25px; }
+
+  .text__small-wifi { margin-right: 17px; }
+
+  .buttons {
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 7px;
+  }
+
+  .button__link_info { color: #fff; }
+}
+
+@media (max-width: 650px) {
+  .text__wrap,
+  .text__character { padding-left: 20px; }
+
+  .text__small-screen { margin-right: 13px; }
+
+  .text__small-wifi { margin-right: 8px; }
+
+  .text__small-bag { margin-right: 12px; }
+
+  .text__icon { max-width: 80%; }
+
+  .button__item_icon { width: auto; }
+}
+
+@media (max-width: 525px) {
+  .section-desc__title,
+  .text__character,
+  .buttons { display: none; }
+
+  .section-desc__wrap_up {
+    background-size: cover;
+    background-position: 0 5px;
+    padding-top: 0;
+  }
+
+  .section-desc__text { height: 305px; }
+
+  .text__wrap {
+    width: auto;
+    padding-top: 17px;
+  }
+
+  .text__title { margin-bottom: 9px; }
+}
+
+/* Телефон */
+@media (max-width: 375px) {
+  .section-desc__title { display: none; }
+
+  .section-desc__wrap_up { background-position: -35px 5px; }
+
+  .section-desc__text { min-width: 0; }
+
+  .text__wrap { padding-left: 0; }
+
+  .text__title {
+    padding-left: 26px;
+    letter-spacing: .6px;
+  }
+
+  .text__content {
+    width: 85%;
+    height: 238px;
+    margin: auto;
+    letter-spacing: .6px;
+  }
+}
+
+/* Адаптив третьей секции */
+
+/* Desktop */
+@media (max-width: 1400px) {
+  .text__character_down,
+  .text__wrap_down { padding-left: 40px; }
+
+  .star__title { padding-top: 5px; }
+
+  .text__aside { padding-left: 45px; }
+
+  .score__icon { margin-right: 15px; }
+}
+
+@media (max-width: 1220px) {
+  .section-desc__wrap_down { background-size: contain; }
+
+  .section-desc__content { right: 70px; }
+}
+
+@media (max-width: 1150px) {
+  .section-desc__wrap_down { background-position: 99% 23%; }
+
+  .section-desc__content {
+    top: 200px;
+    right: 60px;
+  }
+}
+
+@media (max-width: 900px) {
+  .section-desc__content {
+    top: 290px;
+    right: 50px;
+  }
+
+  .section-desc__wrap_down { background-position: 99% 31%; }
+
+  .section-desc__corps-icon { max-width: 107%; }
+}
+
+/* Планшет */
+@media (max-width: 768px) {
+  .section-desc__wrap_down {
+    height: 538px;
+    background-position: 53% 16%;
+    background-size: 76%;
+  }
+
+  .section-desc__content {
+    top: 75px;
+    right: 18px;
+  }
+
+  .section-desc__corps-icon { max-width: 98%; }
+
+  .text__wrap_title-down {
+    padding-top: 59px;
+    margin-bottom: 10px;
+  }
+
+  .text__wrap_down { padding-left: 33px; }
+
+  .text__content_down { height: 163px; }
+
+  .text__character {
+    justify-content: space-between;
+    width: 38%;
+  }
+
+  .text__wrap_subtitle,
+  .text__block,
+  .section-desc__block,
+  .star__item { width: auto; }
+
+  .text__subtitle { padding-left: 0; }
+
+  .text__block {
+    height: 174px;
+    margin: 0;
+  }
+
+  .section-desc__block { min-width: 275px; }
+
+  .star__item { margin-right: 4px; }
+
+  .text__aside { display: none; }
+}
+
+@media (max-width: 650px) {
+  .text__wrap_down,
+  .text__character_down { padding-left: 20px; }
+
+  .section-desc__block { min-width: 200px; }
+
+  .star__item { margin-right: 0; }
+}
+
+@media (max-width: 600px) {
+  .text__character_down { height: 220px; }
+
+  .star__item {
+    margin-right: 0;
+    width: 20px;
+  }
+}
+
+@media (max-width: 525px) {
+  .section-desc__wrap { height: 321px; }
+
+  .section-desc__wrap_down {
+    background-position: 0 22%;
+    background-size: 106%;
+  }
+
+  .section-desc__content {
+    top: 33px;
+    right: 10px;
+  }
+
+  .section-desc__corps-icon { max-width: 100%; }
+
+  .text__wrap_title-down {
+    width: 98%;
+    margin-bottom: 9px;
+    padding-top: 15px;
+  }
+
+  .text__content_donw { width: 74%; }
+}
+
+/* Телефон */
+@media (max-width: 375px) {
+  .section-desc__wrap_down { height: 294px; }
+
+  .section-desc__content { top: 54px; }
+
+  .text__wrap_down { padding-left: 0; }
+
+  .text__wrap_title-down { width: auto; }
+}
